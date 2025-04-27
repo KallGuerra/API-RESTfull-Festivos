@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\source\\repos\\ApiFestivosDef\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3456EA3F-1D27-411D-A8F1-6F608EC56447}|Festivo.Infraestructura.Repositorio\\Festivo.Infraestructura.Repositorio.csproj|c:\\users\\usuario\\source\\repos\\apifestivosdef\\festivo.infraestructura.repositorio\\festivorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3456EA3F-1D27-411D-A8F1-6F608EC56447}|Festivo.Infraestructura.Repositorio\\Festivo.Infraestructura.Repositorio.csproj|solutionrelative:festivo.infraestructura.repositorio\\festivorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BA52ABD-555B-476E-A1FE-DFF9911652FD}|Festivo.Dominio\\Festivo.Dominio.csproj|c:\\users\\usuario\\source\\repos\\apifestivosdef\\festivo.dominio\\entidades\\feestivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BA52ABD-555B-476E-A1FE-DFF9911652FD}|Festivo.Dominio\\Festivo.Dominio.csproj|solutionrelative:festivo.dominio\\entidades\\feestivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EEE7C4D-BA95-431B-8D49-A96040E9F566}|Festivo.Aplicacion\\Festivo.Aplicacion.csproj|c:\\users\\usuario\\source\\repos\\apifestivosdef\\festivo.aplicacion\\servicios\\festivoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EEE7C4D-BA95-431B-8D49-A96040E9F566}|Festivo.Aplicacion\\Festivo.Aplicacion.csproj|solutionrelative:festivo.aplicacion\\servicios\\festivoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723576F4-5074-4353-A4A2-FE8DAA1452EC}|Festivo.Core\\Festivo.Core.csproj|c:\\users\\usuario\\source\\repos\\apifestivosdef\\festivo.core\\repositorios\\ifestivorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723576F4-5074-4353-A4A2-FE8DAA1452EC}|Festivo.Core\\Festivo.Core.csproj|solutionrelative:festivo.core\\repositorios\\ifestivorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3456EA3F-1D27-411D-A8F1-6F608EC56447}|Festivo.Infraestructura.Repositorio\\Festivo.Infraestructura.Repositorio.csproj|c:\\users\\usuario\\source\\repos\\apifestivosdef\\festivo.infraestructura.repositorio\\tiporepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3456EA3F-1D27-411D-A8F1-6F608EC56447}|Festivo.Infraestructura.Repositorio\\Festivo.Infraestructura.Repositorio.csproj|solutionrelative:festivo.infraestructura.repositorio\\tiporepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BA52ABD-555B-476E-A1FE-DFF9911652FD}|Festivo.Dominio\\Festivo.Dominio.csproj|c:\\users\\usuario\\source\\repos\\apifestivosdef\\festivo.dominio\\entidades\\tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BA52ABD-555B-476E-A1FE-DFF9911652FD}|Festivo.Dominio\\Festivo.Dominio.csproj|solutionrelative:festivo.dominio\\entidades\\tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723576F4-5074-4353-A4A2-FE8DAA1452EC}|Festivo.Core\\Festivo.Core.csproj|c:\\users\\usuario\\source\\repos\\apifestivosdef\\festivo.core\\servicios\\itiposervicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723576F4-5074-4353-A4A2-FE8DAA1452EC}|Festivo.Core\\Festivo.Core.csproj|solutionrelative:festivo.core\\servicios\\itiposervicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Feestivo.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ApiFestivosDef\\Festivo.Dominio\\Entidades\\Feestivo.cs",
+              "RelativeDocumentMoniker": "Festivo.Dominio\\Entidades\\Feestivo.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ApiFestivosDef\\Festivo.Dominio\\Entidades\\Feestivo.cs",
+              "RelativeToolTip": "Festivo.Dominio\\Entidades\\Feestivo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T17:07:23.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FestivoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ApiFestivosDef\\Festivo.Infraestructura.Repositorio\\FestivoRepositorio.cs",
+              "RelativeDocumentMoniker": "Festivo.Infraestructura.Repositorio\\FestivoRepositorio.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ApiFestivosDef\\Festivo.Infraestructura.Repositorio\\FestivoRepositorio.cs",
+              "RelativeToolTip": "Festivo.Infraestructura.Repositorio\\FestivoRepositorio.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T15:31:46.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FestivoServicio.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ApiFestivosDef\\Festivo.Aplicacion\\Servicios\\FestivoServicio.cs",
+              "RelativeDocumentMoniker": "Festivo.Aplicacion\\Servicios\\FestivoServicio.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ApiFestivosDef\\Festivo.Aplicacion\\Servicios\\FestivoServicio.cs",
+              "RelativeToolTip": "Festivo.Aplicacion\\Servicios\\FestivoServicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T15:31:41.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IFestivoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ApiFestivosDef\\Festivo.Core\\Repositorios\\IFestivoRepositorio.cs",
+              "RelativeDocumentMoniker": "Festivo.Core\\Repositorios\\IFestivoRepositorio.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ApiFestivosDef\\Festivo.Core\\Repositorios\\IFestivoRepositorio.cs",
+              "RelativeToolTip": "Festivo.Core\\Repositorios\\IFestivoRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T15:31:37.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Tipo.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ApiFestivosDef\\Festivo.Dominio\\Entidades\\Tipo.cs",
+              "RelativeDocumentMoniker": "Festivo.Dominio\\Entidades\\Tipo.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ApiFestivosDef\\Festivo.Dominio\\Entidades\\Tipo.cs",
+              "RelativeToolTip": "Festivo.Dominio\\Entidades\\Tipo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T14:57:49.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TipoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ApiFestivosDef\\Festivo.Infraestructura.Repositorio\\TipoRepositorio.cs",
+              "RelativeDocumentMoniker": "Festivo.Infraestructura.Repositorio\\TipoRepositorio.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ApiFestivosDef\\Festivo.Infraestructura.Repositorio\\TipoRepositorio.cs",
+              "RelativeToolTip": "Festivo.Infraestructura.Repositorio\\TipoRepositorio.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T14:57:10.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITipoServicio.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ApiFestivosDef\\Festivo.Core\\Servicios\\ITipoServicio.cs",
+              "RelativeDocumentMoniker": "Festivo.Core\\Servicios\\ITipoServicio.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ApiFestivosDef\\Festivo.Core\\Servicios\\ITipoServicio.cs",
+              "RelativeToolTip": "Festivo.Core\\Servicios\\ITipoServicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T14:57:04.525Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 34,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
