@@ -15,5 +15,6 @@ namespace Festivo.Dominio.Entidades
 
         [Column("Tipo")]
         public required string Nombre { get; set; }
+
     }
 }

@@ -33,11 +33,22 @@ builder.Services.AddRazorPages();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddCors();
+
+
+
 
 var app = builder.Build();
 
+app.UseCors(policy =>
+    policy.WithOrigins("http://localhost:4200")
+          .AllowAnyMethod()
+          .AllowAnyHeader()
+);
+
 using (var scope = app.Services.CreateScope())
 {
+
     var Context = scope.ServiceProvider.GetRequiredService<FestivoContext>();
     Context.Database.Migrate();
 }

@@ -39,8 +39,7 @@ namespace Festivo.Infraestructura.Persistencia.Migrations
                         .HasColumnName("DiasPascua");
 
                     b.Property<int>("IdTipo")
-                        .HasColumnType("int")
-                        .HasColumnName("IdTipo");
+                        .HasColumnType("int");
 
                     b.Property<int>("Mes")
                         .HasColumnType("int")

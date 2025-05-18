@@ -32,8 +32,8 @@ namespace Festivo.Infraestructura.Persistencia.Migrations
                     Dia = table.Column<int>(type: "int", nullable: false),
                     Mes = table.Column<int>(type: "int", nullable: false),
                     Nombre = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
-                    IdTipo = table.Column<int>(type: "int", nullable: false),
-                    DiasPascua = table.Column<int>(type: "int", nullable: true)
+                    DiasPascua = table.Column<int>(type: "int", nullable: true),
+                    IdTipo = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {

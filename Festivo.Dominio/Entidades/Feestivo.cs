@@ -23,12 +23,14 @@ namespace Festivo.Dominio.Entidades
         [Column("Nombre"), StringLength(100)]
         public string Nombre { get; set; } = null;
 
-
-        [Column("IdTipo")]
-        public int IdTipo { get; set; }
-        public Tipo Tipo { get; set; } = null;
-
         [Column("DiasPascua")]
         public int? DiasPascua { get; set; }
+
+
+        [ForeignKey("IdTipo")]
+        public int IdTipo { get; set; }
+        public Tipo Tipo { get; set; } 
+
+        
     }
 }

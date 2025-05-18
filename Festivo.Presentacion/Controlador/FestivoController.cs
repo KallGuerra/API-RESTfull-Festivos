@@ -1,4 +1,6 @@
 ﻿using Festivo.Core.Servicios;
+
+using Festivo.Dominio.Dto;
 using Festivo.Dominio.Entidades;
 using Microsoft.AspNetCore.Mvc;
 
@@ -54,5 +56,18 @@ namespace Festivo.Presentacion.Controlador
         {
             return await servicio.Eliminar(Id);
         }
+
+        [HttpGet("festivosPorAno/{ano}")]
+        public async Task<IEnumerable<FestivoCalculadoDto>> ObtenerFestivosPorAno(int ano)
+        {
+            return await servicio.ObtenerFestivosPorAno(ano);
+        }
+
+        [HttpGet("esFestivo/{dia}/{mes}/{ano}")]
+        public async Task<bool> EsFestivo(int dia, int mes, int ano)
+        {
+            return await servicio.EsFestivo(dia, mes, ano);
+        }
+
     }
 }

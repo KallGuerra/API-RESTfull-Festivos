@@ -84,6 +84,68 @@
   },
   {
     "ContainingType": "Festivo.Presentacion.Controlador.FestivoController",
+    "Method": "EsFestivo",
+    "RelativePath": "api/festivos/esFestivo/{dia}/{mes}/{ano}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dia",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "mes",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ano",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Festivo.Presentacion.Controlador.FestivoController",
+    "Method": "ObtenerFestivosPorAno",
+    "RelativePath": "api/festivos/festivosPorAno/{ano}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ano",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Festivo.Dominio.Dto.FestivoCalculadoDto, Festivo.Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Festivo.Presentacion.Controlador.FestivoController",
     "Method": "ObtenerTodos",
     "RelativePath": "api/festivos/listar",
     "HttpMethod": "GET",

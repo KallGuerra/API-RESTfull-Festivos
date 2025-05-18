@@ -1,4 +1,7 @@
-﻿using Festivo.Dominio.Entidades;
+﻿
+using Festivo.Dominio.Dto;
+using Festivo.Dominio.Entidades;
+
 
 
 namespace Festivo.Core.Servicios
@@ -11,5 +14,7 @@ namespace Festivo.Core.Servicios
         Task<Feestivo> Agregar(Feestivo festivo);
         Task<Feestivo> Modificar(Feestivo festivo);
         Task<bool> Eliminar(int Id);
+        Task<IEnumerable<FestivoCalculadoDto>> ObtenerFestivosPorAno(int ano);
+        Task<bool> EsFestivo(int dia, int mes, int ano);
     }
 }

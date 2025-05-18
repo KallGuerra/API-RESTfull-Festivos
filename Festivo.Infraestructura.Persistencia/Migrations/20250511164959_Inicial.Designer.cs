@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Festivo.Infraestructura.Persistencia.Migrations
 {
     [DbContext(typeof(FestivoContext))]
-    [Migration("20250426212811_Inicial")]
+    [Migration("20250511164959_Inicial")]
     partial class Inicial
     {
         /// <inheritdoc />
@@ -42,8 +42,7 @@ namespace Festivo.Infraestructura.Persistencia.Migrations
                         .HasColumnName("DiasPascua");
 
                     b.Property<int>("IdTipo")
-                        .HasColumnType("int")
-                        .HasColumnName("IdTipo");
+                        .HasColumnType("int");
 
                     b.Property<int>("Mes")
                         .HasColumnType("int")

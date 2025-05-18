@@ -1,4 +1,5 @@
-﻿using Festivo.Dominio.Entidades;
+﻿using Festivo.Dominio.Dto;
+using Festivo.Dominio.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,5 +21,6 @@ namespace Festivo.Core.Repositorios
         Task<Tipo> Modificar(Tipo festivo);
 
         Task<bool> Eliminar(int Id);
+        
     }
 }

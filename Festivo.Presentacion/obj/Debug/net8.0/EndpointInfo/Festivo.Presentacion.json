@@ -276,6 +276,113 @@
         }
       }
     },
+    "/api/festivos/festivosPorAno/{ano}": {
+      "get": {
+        "tags": [
+          "Festivo"
+        ],
+        "parameters": [
+          {
+            "name": "ano",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FestivoCalculadoDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FestivoCalculadoDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FestivoCalculadoDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/festivos/esFestivo/{dia}/{mes}/{ano}": {
+      "get": {
+        "tags": [
+          "Festivo"
+        ],
+        "parameters": [
+          {
+            "name": "dia",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "mes",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ano",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/Tipo/listar": {
       "get": {
         "tags": [
@@ -562,16 +669,30 @@
             "type": "string",
             "nullable": true
           },
+          "diasPascua": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
           "idTipo": {
             "type": "integer",
             "format": "int32"
           },
           "tipo": {
             "$ref": "#/components/schemas/Tipo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "FestivoCalculadoDto": {
+        "type": "object",
+        "properties": {
+          "fecha": {
+            "type": "string",
+            "format": "date-time"
           },
-          "diasPascua": {
-            "type": "integer",
-            "format": "int32",
+          "nombre": {
+            "type": "string",
             "nullable": true
           }
         },

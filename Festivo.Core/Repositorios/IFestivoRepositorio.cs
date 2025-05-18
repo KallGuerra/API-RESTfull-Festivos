@@ -1,4 +1,5 @@
 ﻿using Festivo.Dominio.Entidades;
+using Festivo.Dominio.Dto;
 
 namespace Festivo.Core.Repositorios
 {
@@ -15,6 +16,6 @@ namespace Festivo.Core.Repositorios
         Task<Feestivo> Modificar(Feestivo festivo);
 
         Task<bool> Eliminar(int Id);
-
+        Task<IEnumerable<Feestivo>> ObtenerTodosConTipoAsync();
     }
 }

@@ -63,7 +63,7 @@ namespace Festivo.Infraestructura.Repositorio
 
         public async Task<Tipo> Obtener(int Id)
         {
-            return await context.tipos.FindAsync();
+            return await context.tipos.FindAsync(Id);
         }
 
         public async Task<IEnumerable<Tipo>> ObtenerTodos()

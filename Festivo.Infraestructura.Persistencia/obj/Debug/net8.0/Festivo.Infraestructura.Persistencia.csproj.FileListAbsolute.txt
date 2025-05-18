@@ -15,3 +15,4 @@ C:\Users\USUARIO\source\repos\ApiFestivosDef\Festivo.Infraestructura.Persistenci
 C:\Users\USUARIO\source\repos\ApiFestivosDef\Festivo.Infraestructura.Persistencia\obj\Debug\net8.0\ref\Festivo.Infraestructura.Persistencia.dll
 C:\Users\USUARIO\source\repos\ApiFestivosDef\Festivo.Infraestructura.Persistencia\bin\Debug\net8.0\Festivo.Infraestructura.Persistencia.runtimeconfig.json
 C:\Users\USUARIO\source\repos\ApiFestivosDef\Festivo.Infraestructura.Persistencia\obj\Debug\net8.0\Festivo.Infraestructura.Persistencia.genruntimeconfig.cache
+C:\Users\USUARIO\source\repos\ApiFestivosDef\Festivo.Infraestructura.Persistencia\obj\Debug\net8.0\Festivo.Infraestructura.Persistencia.sourcelink.json
